@@ -1,0 +1,33 @@
+/* src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos personalizados */
+body {
+  font-family: 'Helvetica', sans-serif;
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .bg-white {
+    background-color: white !important;
+  }
+
+  .text-gray-700 {
+    color: #4a5568 !important;
+  }
+
+  .text-blue-500 {
+    color: #4299e1 !important;
+  }
+
+  .border {
+    border: 1px solid #e2e8f0 !important;
+  }
+  
+}

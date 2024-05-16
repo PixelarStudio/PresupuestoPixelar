@@ -1,0 +1,9 @@
+[
+    { "id": 1, "nombre": "Sitio Web Personal", "precio": 75000 },
+    { "id": 2, "nombre": "Sitio Web Empresarial", "precio": 150000 },
+    { "id": 3, "nombre": "Sitio Web Oficios", "precio": 55000 },
+    { "id": 4, "nombre": "Sitio Web Emprendedores", "precio": 65000 },
+    { "id": 5, "nombre": "Sitio Web Pymes", "precio": 85000 }
+
+  ]
+  

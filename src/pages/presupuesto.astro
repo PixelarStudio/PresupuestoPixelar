@@ -1,0 +1,57 @@
+---
+import PresupuestoPage from '../components/PresupuestoPage.jsx';
+---
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generar Presupuesto - Pixelar Studio</title>
+    <link rel="stylesheet" href="/src/styles/global.css">
+  </head>
+  <body class="bg-gray-900 text-gray-100">
+    <main class="min-h-screen flex flex-col justify-center items-center">
+      <PresupuestoPage client:load />
+    </main>
+  </body>
+</html>
+
+<style is:global>
+  html, body {
+    background-color: #000;
+  }
+  
+  main {
+    background-color: black;
+  }
+</style>
+<!-- ---
+import PresupuestoPage from '../components/PresupuestoPage.jsx';
+---
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generar Presupuesto - Pixelar Studio</title>
+    <link rel="stylesheet" href="/src/styles/global.css">
+  </head>
+  <body class="bg-gray-100 text-gray-900">
+    <main class="min-h-screen flex flex-col justify-center items-center">
+      <PresupuestoPage client:load />
+    </main>
+  </body>
+</html>
+
+<style is:global>
+	
+	
+  html, body {
+    background-color: #000;
+  }
+  
+  main {
+    background-color: black;
+  }
+
+  </style> -->
